@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KUb42wjT/bzONE50LN2fyPJdFQzmfnjWoBbiZ5Ffo5F86YPn9hBYDSzMWdbIly649uyYTgDcUuXHxnCxXwnU4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ALI\\source\\repos\\Project\\Project.DataTransferObjects\\Project.DataTransferObjects.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ALI\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ALI\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
