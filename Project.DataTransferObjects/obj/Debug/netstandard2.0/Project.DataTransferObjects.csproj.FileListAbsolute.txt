@@ -1,0 +1,9 @@
+C:\Users\ALI\source\repos\Project\Project.DataTransferObjects\bin\Debug\netstandard2.0\Project.DataTransferObjects.deps.json
+C:\Users\ALI\source\repos\Project\Project.DataTransferObjects\bin\Debug\netstandard2.0\Project.DataTransferObjects.dll
+C:\Users\ALI\source\repos\Project\Project.DataTransferObjects\bin\Debug\netstandard2.0\Project.DataTransferObjects.pdb
+C:\Users\ALI\source\repos\Project\Project.DataTransferObjects\obj\Debug\netstandard2.0\Project.DataTransferObjects.csprojAssemblyReference.cache
+C:\Users\ALI\source\repos\Project\Project.DataTransferObjects\obj\Debug\netstandard2.0\Project.DataTransferObjects.AssemblyInfoInputs.cache
+C:\Users\ALI\source\repos\Project\Project.DataTransferObjects\obj\Debug\netstandard2.0\Project.DataTransferObjects.AssemblyInfo.cs
+C:\Users\ALI\source\repos\Project\Project.DataTransferObjects\obj\Debug\netstandard2.0\Project.DataTransferObjects.csproj.CoreCompileInputs.cache
+C:\Users\ALI\source\repos\Project\Project.DataTransferObjects\obj\Debug\netstandard2.0\Project.DataTransferObjects.dll
+C:\Users\ALI\source\repos\Project\Project.DataTransferObjects\obj\Debug\netstandard2.0\Project.DataTransferObjects.pdb

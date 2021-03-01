@@ -1,15 +1,12 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Project.Helpers;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Project.Api
 {
@@ -19,34 +16,61 @@ namespace Project.Api
       {
          Configuration = configuration;
       }
-
       public IConfiguration Configuration { get; }
-
-      // This method gets called by the runtime. Use this method to add services to the container.
       public void ConfigureServices(IServiceCollection services)
       {
-
+         services.AddMemoryCache();
          services.AddControllers();
-         services.AddSwaggerGen(c =>
+         services.AddCors(options =>
          {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Project.Api", Version = "v1" });
+            options.AddPolicy("AllowOrigin", builder => builder.WithOrigins(MyStatic.ApiUrlTest));
+         });
+         services.AddSwaggerGen(setup =>
+         {
+            setup.SwaggerDoc("v1", new OpenApiInfo
+            {
+               Version = "v1",
+               Title = "Rent a Car API",
+               Description = "It is the api service of a rent a car system.",
+               License = new OpenApiLicense
+               {
+                  Name = "by Ali KARAKOÇ",
+               }
+            });
+            var jwtSecurityScheme = new OpenApiSecurityScheme
+            {
+               Scheme = "bearer",
+               BearerFormat = "JWT",
+               Name = "JWT Authentication",
+               In = ParameterLocation.Header,
+               Type = SecuritySchemeType.Http,
+               Description = "Put **_ONLY_** your JWT Bearer token on textbox below!",
+
+               Reference = new OpenApiReference
+               {
+                  Id = JwtBearerDefaults.AuthenticationScheme,
+                  Type = ReferenceType.SecurityScheme
+               }
+            };
+            setup.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
+            setup.AddSecurityRequirement(new OpenApiSecurityRequirement
+             {
+                 { jwtSecurityScheme, Array.Empty<string>() }
+             });
          });
       }
-
-      // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
       public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
       {
          if (env.IsDevelopment())
          {
             app.UseDeveloperExceptionPage();
-            app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Project.Api v1"));
          }
-
+         app.UseSwagger();
+         app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Rent a Car BackEnd Services"));
+         app.UseCors(builder => builder.WithOrigins(MyStatic.ApiUrlTest).AllowAnyHeader().AllowAnyMethod());
          app.UseRouting();
-
+         app.UseAuthentication();
          app.UseAuthorization();
-
          app.UseEndpoints(endpoints =>
          {
             endpoints.MapControllers();

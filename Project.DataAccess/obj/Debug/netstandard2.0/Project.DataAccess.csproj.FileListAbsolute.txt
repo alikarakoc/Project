@@ -1,0 +1,9 @@
+C:\Users\ALI\source\repos\Project\Project.DataAccess\bin\Debug\netstandard2.0\Project.DataAccess.deps.json
+C:\Users\ALI\source\repos\Project\Project.DataAccess\bin\Debug\netstandard2.0\Project.DataAccess.dll
+C:\Users\ALI\source\repos\Project\Project.DataAccess\bin\Debug\netstandard2.0\Project.DataAccess.pdb
+C:\Users\ALI\source\repos\Project\Project.DataAccess\obj\Debug\netstandard2.0\Project.DataAccess.csprojAssemblyReference.cache
+C:\Users\ALI\source\repos\Project\Project.DataAccess\obj\Debug\netstandard2.0\Project.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ALI\source\repos\Project\Project.DataAccess\obj\Debug\netstandard2.0\Project.DataAccess.AssemblyInfo.cs
+C:\Users\ALI\source\repos\Project\Project.DataAccess\obj\Debug\netstandard2.0\Project.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ALI\source\repos\Project\Project.DataAccess\obj\Debug\netstandard2.0\Project.DataAccess.dll
+C:\Users\ALI\source\repos\Project\Project.DataAccess\obj\Debug\netstandard2.0\Project.DataAccess.pdb
