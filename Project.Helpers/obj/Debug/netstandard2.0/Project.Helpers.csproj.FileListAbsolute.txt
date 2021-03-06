@@ -1,9 +1,0 @@
-C:\Users\ALI\source\repos\Project\Project.Helpers\bin\Debug\netstandard2.0\Project.Helpers.deps.json
-C:\Users\ALI\source\repos\Project\Project.Helpers\bin\Debug\netstandard2.0\Project.Helpers.dll
-C:\Users\ALI\source\repos\Project\Project.Helpers\bin\Debug\netstandard2.0\Project.Helpers.pdb
-C:\Users\ALI\source\repos\Project\Project.Helpers\obj\Debug\netstandard2.0\Project.Helpers.csprojAssemblyReference.cache
-C:\Users\ALI\source\repos\Project\Project.Helpers\obj\Debug\netstandard2.0\Project.Helpers.AssemblyInfoInputs.cache
-C:\Users\ALI\source\repos\Project\Project.Helpers\obj\Debug\netstandard2.0\Project.Helpers.AssemblyInfo.cs
-C:\Users\ALI\source\repos\Project\Project.Helpers\obj\Debug\netstandard2.0\Project.Helpers.csproj.CoreCompileInputs.cache
-C:\Users\ALI\source\repos\Project\Project.Helpers\obj\Debug\netstandard2.0\Project.Helpers.dll
-C:\Users\ALI\source\repos\Project\Project.Helpers\obj\Debug\netstandard2.0\Project.Helpers.pdb
