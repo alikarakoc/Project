@@ -7,3 +7,13 @@
 /Project.DataTransferObjects/obj/Debug/netstandard2.0
 /Project.Entities/obj/Debug/netstandard2.0
 /Project.Helpers/obj/Debug/netstandard2.0
+/Project.Api/bin/Debug/net5.0
+/Project.Api/obj
+/Project.DataAccess/bin/Debug/netstandard2.0
+/Project.DataAccess/obj
+/Project.DataTransferObjects/bin/Debug/netstandard2.0
+/Project.DataTransferObjects/obj
+/Project.Entities/bin/Debug/netstandard2.0
+/Project.Entities/obj
+/Project.Helpers/bin/Debug/netstandard2.0
+/Project.Helpers/obj
