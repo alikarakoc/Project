@@ -1,9 +1,0 @@
-C:\Users\ALI\source\repos\Project\Project.Entities\bin\Debug\netstandard2.0\Project.Entities.deps.json
-C:\Users\ALI\source\repos\Project\Project.Entities\bin\Debug\netstandard2.0\Project.Entities.dll
-C:\Users\ALI\source\repos\Project\Project.Entities\bin\Debug\netstandard2.0\Project.Entities.pdb
-C:\Users\ALI\source\repos\Project\Project.Entities\obj\Debug\netstandard2.0\Project.Entities.csprojAssemblyReference.cache
-C:\Users\ALI\source\repos\Project\Project.Entities\obj\Debug\netstandard2.0\Project.Entities.AssemblyInfoInputs.cache
-C:\Users\ALI\source\repos\Project\Project.Entities\obj\Debug\netstandard2.0\Project.Entities.AssemblyInfo.cs
-C:\Users\ALI\source\repos\Project\Project.Entities\obj\Debug\netstandard2.0\Project.Entities.csproj.CoreCompileInputs.cache
-C:\Users\ALI\source\repos\Project\Project.Entities\obj\Debug\netstandard2.0\Project.Entities.dll
-C:\Users\ALI\source\repos\Project\Project.Entities\obj\Debug\netstandard2.0\Project.Entities.pdb
