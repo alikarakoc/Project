@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Project.Api/obj/Debug/net5.0
+/Project.DataAccess/obj/Debug/netstandard2.0
+/Project.DataTransferObjects/obj/Debug/netstandard2.0
+/Project.Entities/obj/Debug/netstandard2.0
+/Project.Helpers/obj/Debug/netstandard2.0
